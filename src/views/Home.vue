@@ -3,6 +3,8 @@
      
     <Portfolio />
     
+    {{ this.$store.state.itemsModule.items }}
+
 </div>
 </template>
 

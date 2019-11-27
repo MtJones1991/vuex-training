@@ -5,6 +5,9 @@ items: ['34234234', '23423423']
 };
 
 const mutations = {
+  addUsername(state, payload) {
+    state.items.push(payload)
+  },
 
 }
 
