@@ -1,0 +1,25 @@
+// WHEN USING MIXINS, IMPORT THE VARIABLE FILE.
+
+@import "variables/border-variables";
+
+.borderBoxOne{
+    @include border-one(5px);
+}
+
+.borderBoxTwo{
+    @include border-two(10px);
+
+}
+
+.borderBoxThree {
+    @include border-three(15px);
+}
+
+.bootstrapListItem {
+    background: none !important;
+}
+
+
+.projectDiv {
+    border-bottom: 3px solid rgba(187, 177, 177, 0.767);
+}

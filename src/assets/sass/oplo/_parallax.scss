@@ -1,0 +1,141 @@
+.parallax {
+    display: flex; 
+    /* Set a specific height */
+    height: 950px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxBottom {
+    display: flex; 
+    /* Set a specific height */
+    height: 750px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sassTest {
+    p {
+        color: $oplo-blue;
+        font-size: 5rem !important;
+    }
+}
+
+.paralBackground {
+    background: rgb(240, 238, 235);
+    background: linear-gradient(0deg, rgb(240, 238, 235) 0%, rgb(226, 225, 225) 100%);
+    height: 90vh !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+    .astro-background {
+        object-fit: cover !important;
+        object-position: 85% 85% !important;
+    }
+
+    .parallax {
+        display: flex; 
+        /* Set a specific height */
+        height: 950px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallaxBottom {
+        display: flex; 
+        /* Set a specific height */
+        height: 750px;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .sassTest {
+        p {
+            color: $oplo-blue;
+            font-size: 5rem !important;
+        }
+    }
+    
+    .paralBackground {
+        background: rgb(240, 238, 235);
+        background: linear-gradient(0deg, rgb(240, 238, 235) 0%, rgb(226, 225, 225) 100%);
+        height: 90vh !important;
+    }
+
+    .paralBackground {
+        background: rgb(240, 238, 235);
+        background: linear-gradient(0deg, rgb(240, 238, 235) 0%, rgb(226, 225, 225) 100%);
+        height: 190vh !important;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .parallax {
+        display: flex !important; 
+        /* Set a specific height */
+        height: 950px !important;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    
+    .parallaxBottom {
+        display: flex !important; 
+        /* Set a specific height */
+        height: 750px !important;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+    }
+    
+    .sassTest {
+        p {
+            color: $oplo-blue !important;
+            font-size: 5rem !important;
+        }
+    }
+    
+    .paralBackground {
+        background: rgb(240, 238, 235) !important;
+        background: linear-gradient(0deg, rgb(240, 238, 235) 0%, rgb(226, 225, 225) 100%) !important;
+        height: 90vh !important;
+    }
+    
+    @media only screen and (max-device-width: 480px) {
+    
+        .astro-background {
+            object-fit: cover !important;
+            object-position: 85% 85% !important;
+        }
+    
+        .paralBackground {
+            background: rgb(240, 238, 235) !important;
+            background: linear-gradient(0deg, rgb(240, 238, 235) 0%, rgb(226, 225, 225) 100%) !important;
+            height: 190vh !important;
+    
+        }
+    
+    }
+    
+  
+    }

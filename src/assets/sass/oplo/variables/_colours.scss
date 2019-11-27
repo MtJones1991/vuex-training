@@ -1,0 +1,16 @@
+$blue: rgb(39, 121, 235);
+$ubuntu-font: 'Ubuntu', 'Arial', 'Helvetica', sans-serif;
+$nunito-font: 'Nunito', 'Arial', 'Helvetica', sans-serif;
+
+$oplo-blue:rgb(24, 205, 255);
+$oplo-magenta: rgb(167, 0, 231);
+$oplo-purple: rgb(47, 23, 77);
+
+
+@mixin set-font( $family: 'Ubuntu' , $weight: 400 , $style: normal ) {
+    color: $oplo-purple !important;
+    font-family: 'Orbitron', sans-serif !important;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: 35px;
+  }

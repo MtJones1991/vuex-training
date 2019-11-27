@@ -1,0 +1,26 @@
+@import "./variables/colours";
+
+h1 {
+    @include set-font;
+}
+
+h3 {
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+.aboutH2 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.darkFont{
+    color: darken($oplo-magenta, 0%) !important;
+}
+
+
+.lightFont{
+    color: lighten($oplo-blue, 30%) !important;
+}

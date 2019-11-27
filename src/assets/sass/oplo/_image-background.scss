@@ -1,0 +1,11 @@
+@import "./variables//place-holders";
+
+.image-one {
+    @extend %bg-image;
+    background-color: rgb(187, 153, 110);
+}
+
+.image-two {
+    @extend %bg-image;
+    background-color: rgb(190, 168, 139);
+}

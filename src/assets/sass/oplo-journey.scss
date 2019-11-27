@@ -1,0 +1,25 @@
+// IMPORT SCSS FILES HERE ###################################################
+@import "oplo/font-styles";
+@import "oplo/parallax";
+@import "oplo/animated-title";
+@import "oplo/borders";
+@import "oplo/alignment";
+@import "oplo/image-background";
+
+// IMPORT VARIABLE FILES HERE ##############################################
+@import "oplo/variables//border-variables";
+
+// IMPORT PLACEHOLDERS HERE ################################################
+@import "oplo/variables//place-holders";
+
+// IMPORT ALIGNMENTS HERE ##################################################
+@import "oplo/gridAlignment//grid-alignment";
+
+body {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+html {
+    background-color: rgba(226, 131, 7, 0.05);
+  
+}

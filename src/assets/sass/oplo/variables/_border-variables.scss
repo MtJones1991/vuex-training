@@ -1,0 +1,29 @@
+@mixin border-one($rounded-edge) {
+    border-style: solid;
+    border-width: 5px;
+    border-color: $oplo-blue;
+    font-size: 35px;
+    -moz-border-radius: $rounded-edge;
+    -webkit-border-radius: $rounded-edge;
+    border-radius: $rounded-edge;  
+  }
+
+@mixin border-two($rounded-edge) {
+    border-style: solid;
+    border-width: 7px;
+    border-color: $oplo-magenta;
+    font-size: 35px;
+    -moz-border-radius: $rounded-edge;
+    -webkit-border-radius: $rounded-edge;
+    border-radius: $rounded-edge;  
+  }
+
+@mixin border-three($rounded-edge) {
+    border-style: solid;
+    border-width: 2px;
+    border-color: $oplo-purple;
+    font-size: 35px;
+    -moz-border-radius: $rounded-edge;
+    -webkit-border-radius: $rounded-edge;
+    border-radius: $rounded-edge;  
+  }

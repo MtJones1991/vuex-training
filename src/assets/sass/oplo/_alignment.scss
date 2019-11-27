@@ -1,0 +1,31 @@
+.center-item-middle {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    justify-content: center; /*Aligns horizontally center */
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.center-item-horizontal {
+    display: flex; 
+    justify-content: center; /*Aligns horizontally center */
+    width: 50%;
+    margin: 0 auto; 
+}
+
+.center-item-vertical {
+    display: flex; 
+    align-items: center;  /*Aligns vertically center */
+    width: 50%;
+    margin: 0 auto; 
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+.item-space-between {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
